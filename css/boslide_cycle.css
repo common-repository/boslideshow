@@ -1,0 +1,139 @@
+#twocolumn #bocontentwrap{width:auto}
+#twocolumn #bomain{width:auto; margin-top:auto;  margin-left:auto; ?>; margin-right:auto;  padding-left:auto; padding-right:auto; padding-top:auto; padding-bottom:auto;  }
+#threeCol #bosidebar,#twocolumn #bosidebar{float:left;width:150px;padding-top:1em;background:url(../images/burning_book.jpg) no-repeat 70% 100%;padding-bottom:350px}
+#bocontainer{/*width:760px;*/width:auto; margin:0 auto;/*border-right:1px solid #a7a37e;border-left:1px solid #a7a37e;*/background-color:#fff;position:relative; z-index:0;}
+.badge{position:absolute;z-index:50;font-size:14px;font-weight:bold;padding:5px;color:black!important;background-color:#3FF;border:1px black solid;opacity:.5;filter:alpha(opacity=50)}
+.badgeClass{top:20px;background-color:#F90}
+#bocontentwrap{float:left; z-index:0;}
+#bocontentwrap #bomain{float:left;padding-bottom:25px}
+#news h2,#bomain h1{font-size:3em;color:#002f2f;text-transform:uppercase;line-height:.9em;border-top:1px solid #a7a37e;padding-top:3px;padding-bottom:2px;border-bottom:1px solid #a7a37e;margin-bottom:10px}
+#bomain h1{font-family:Georgia,"Times New Roman",Times,serif;text-transform:none;color:#900;padding-top:1em;font-weight:normal;margin-bottom:20px}
+#bomain h2{color:#053131;font-size:1.6em;font-weight:bold;margin-bottom:5px;border-bottom:1px solid #CCC;margin-top:10px}
+#bomain{margin-top:auto}
+#bomain p{font:1.8em Georgia,"Times New Roman",Times,serif;margin-bottom:1em; padding-bottom:20px;}
+#bomain .section{padding:10px;margin-top:20px;border:1px solid #666;margin-bottom:20px}
+#bomain li{font-size:1.4em;padding-bottom:5px}
+#bomain .sideBySide li{float:left;width:135px;overflow:hidden}
+#bomain li li{font-size:100%}
+#bomain li p{font-size:1.3em}
+#news h3.date,#bomain h3.date{font-size:1.2em;text-transform:uppercase;color:#FFF;background:#666;padding:2px 5px 1px;margin-bottom:5px}
+#bomain h3{font-size:2em}
+
+#bobocontrols{text-align:center; }
+#pager a,#bomain .bocontrol{font-size:12px;font-weight:bold;color:#FFF;background:#0e3b3b;padding:2px 5px;text-decoration:none;margin-left:5px;cursor:pointer}
+#pager a.activeSlide{background-color:#e6e2af;color:#000}
+#pager a:hover,#playbocontrol:hover{background:#900}
+
+
+#bogallery{height:auto;width:auto;margin-top:15px; z-index:-1;}
+#bogallery div{text-align:center;width:auto;height:auto; z-index:-1;}
+#bogallery img{padding:10px;border:1px solid #333;background-color:#FFF}
+#bogallery div p{font:bold 12px "Trebuchet MS",Arial,Helvetica,sans-serif}
+#bosidebar h2{font-size:1.5em;font-weight:bold;color:#fff;background:#333;padding:3px 5px}
+#bosidebar ul{margin:0;padding:0;list-style:none;border-bottom:1px solid #a7a37e;border-right:1px solid #a7a37e}
+#bosidebar li{font-weight:bold;font-size:1.3em;text-transform:lowercase;background:#f2f2f2;text-align:right}
+#bosidebar ul ul{border:0}
+#bosidebar li li{font-size:.9em;font-weight:normal;background:#fff}
+#bosidebar a{text-decoration:none;color:#002f2f;padding:4px 3px 2px 2px;display:block}
+#bosidebar li a{border-top:1px solid #a7a37e}
+#bosidebar li li a{border-top:1px dashed #efecca;color:#046380;padding-bottom:4px}
+#bofooter{border-top:1px solid #a7a37e;font:normal 1.5em/1em Georgia,"Times New Roman",Times,serif;color:#046380;margin-top:10px;margin-left:170px;background:#e6e2af;border-left:1px solid #a7a37e;text-align:right;padding:7px 10px 6px 0}
+#bosidebar a:hover{background:#f3f4c7}
+* html #bosidebar li a{height:1px}
+#bofooter{clear:both}
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            margin:0;u
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+	    
+    #container{	
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	width:490px;
+	background:#fff;	
+	margin-bottom:2em;
+	}	    
+    #content{
+	position:relative;
+	}	    
+
+    /* Easy Slider */
+
+    #slider ul, #slider li,
+    #slider2 ul, #slider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+    #slider2{margin-top:1em;}
+    #slider li, #slider2 li{ 
+	/* 
+	    define width and height of list item (slide)
+	    entire slider area will adjust according to the parameters provided here
+	*/ 
+	width: 490px;
+	height: 241px;
+	overflow:hidden; 
+	}   
+    #prevBtn, #nextBtn,
+    #slider1next, #slider1prev{ 
+	display:block;
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-30px;
+	top:71px;
+	z-index:1000;
+	}   
+    #nextBtn, #slider1next{ 
+	left: 490px;
+	}							
+    #prevBtn a, #nextBtn a,
+    #slider1next a, #slider1prev a{  
+	display:block;
+	position:relative;
+	width:30px;
+	height:77px;
+	background:url(btn_prev.gif) no-repeat 0 0;	
+	}   
+    #nextBtn a, #slider1next a{ 
+	background:url(btn_next.gif) no-repeat 0 0;	
+	}   
+	
+    /* numeric controls */  
+
+    ol#controls{
+	margin:1em 0;
+	padding:0;
+	height:28px;	
+	}
+    ol#controls li{
+	margin:0 10px 0 0; 
+	padding:0;
+	float:left;
+	list-style:none;
+	height:28px;
+	line-height:28px;
+	}
+    ol#controls li a{
+	float:left;
+	height:28px;
+	line-height:28px;
+	border:1px solid #ccc;
+	background:#DAF3F8;
+	color:black;
+	padding:0 10px;
+	text-decoration:none;
+	}
+    ol#controls li.current a{
+	background:blue;
+	color:#fff;
+	}
+    ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+    .hide_slide {display:none;}
